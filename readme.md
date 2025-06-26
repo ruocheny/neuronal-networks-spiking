@@ -1,4 +1,4 @@
-The supplementary codes contains two parts, spiking_simulation for Izhikevich simulation on artificial neuronal networks, and goal_directed_network for spiking neural networks training.
+The supplementary codes contains two parts, ```spiking_simulation``` for Izhikevich simulation on artificial neuronal networks, and ```goal_directed_network``` for spiking neural networks.
 
 ## spiking_simulation
 
@@ -14,6 +14,6 @@ Please run the source code in the following order:
 
 ## goal_directed_network
 
-The code is developed with Python and tension package (https://github.com/zhenruiliao/tension). The ipynb notebook trains spiking neural networks with FORCE algorithm to achieve computational task of integration, differentiation and delay.
+The code is developed with Python and [tension](https://github.com/zhenruiliao/tension) package. This repository includes code modified from the [tension](https://github.com/zhenruiliao/tension) package, which is licensed under the MIT License. A copy of the original license is provided in ```goal_directed_network/tension```.
 
-This repository includes code modified from the [Tension](https://github.com/zhenruiliao/tension) package, which is licensed under the MIT License. A copy of the original license is provided in ```goal_directed_network/tension```.
+The ipynb notebook trains spiking neural networks with FORCE algorithm to achieve computational task of integration, differentiation and delay.
